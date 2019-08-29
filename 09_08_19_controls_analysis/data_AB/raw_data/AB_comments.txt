@@ -1,0 +1,1 @@
+There are 2 outliers out of 115 (1.74%) for CV of 30

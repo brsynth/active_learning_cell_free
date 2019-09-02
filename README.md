@@ -1,34 +1,41 @@
+Author: Mathilde Koch, Faulon's group, INRA.
+
 # Description.
 
-The aim of this folder is to regroup all necessary scripts for generating data and models presented in Large scale active-learning-guided exploration to maximize cell-free production by Olivier Borkowski*, Mathilde Koch*, Agnès Zettor, Amir Pandi, Angelo Cardoso Batista, Paul Soudier and Jean-Loup Faulon.
+The aim of this folder is to regroup all necessary scripts for generating data and models presented in Large scale active-learning-guided exploration to maximize cell-free production by Olivier Borkowski*, Mathilde Koch*, Agnès Zettor, Amir Pandi, Angelo Cardoso Batista, Paul Soudier and Jean-Loup Faulon. Currently available at https://doi.org/10.1101/751669.
+*: authors contributed equally.
 
-# Active learning loop.
+# Active learning loop:
 
 This folder contains data both for 
-- generating the active learning loop (learn_and_suggest script)
-- generating model statistics at each iteration (generate_model_statistics)
-- initial_plate_generation: how the first plate was generated
+- generating the active learning loop (learn_and_suggest script, Figures 1c and 1d)
+- generating model statistics at each iteration (generate_model_statistics, Figure 1e)
+- genarting first plate for active learning (initial_plate_generation, Figure 1c)
 
-# Compound effect analysis
+# Compound effect analysis:
 
-Contains scripts to analyse the effect of compounds in different lysates with a linear regression or mutual information.
+Contains scripts to analyse the effect of compounds in different lysates with a linear regression or mutual information. (Figure 1g, Supplementary Figure 3)
 
-# ECHO handling scripts
+# Controls analysis plates:
 
-This folder contains scripts for handling the ECHO machine, from a file of concentrations to test to the instructions to the machine to data extraction and quality control.
+This folder contains the data and scripts used to extract absolute yields (ie: compared to lysate of origin) for all other lysates. (Supplementary Figure 4)
 
-# Multiple extracts analysis.
+# ECHO handling scripts:
 
-This folder contains scripts to extract the most informative 20 points to predict 102 other points, as well as various analyses than were ran using those 20 points.
+This folder contains scripts for handling the ECHO machine, from a file of concentrations to test to the instructions to the machine to data extraction and quality control. (No specific Figure)
 
-# Whole lysate most informative points.
+# Multiple extracts analysis:
 
-The aim of this folder is to extract the most informative 102 (or 20) points that predict the full 1017 points dataset.
-Functions are similar to the ones that do the same thing in other_extract analysis. The difference is the wrapping around the input concentrations to test, or data to comapre to.
+This folder contains scripts to extract the most informative 20 points to predict 102 other points, as well as various analyses than were ran using those 20 points. (Figure 2 and Supplementary Figure 2e)
 
-# Controls analysis:
+# Predict for new lysate:
 
-This folder contains the data and scripts used to extract absolute yields (ie: compared to lysate of origin) for all other lysates.
+This folder contains scripts to predict yield on unseen lysates to optimise them. (No specific Figure, but same data as Figure 2)
+
+# Whole lysate most informative points:
+
+The aim of this folder is to extract the most informative 102 (or 20) points that predict the full 1017 points dataset (Supplementary Figure 2).
+Functions are similar to the ones that do the same thing in multiple_extract analysis. The difference is the wrapping around the input concentrations to test, or data to compare to.
 
 # Requirements:
 

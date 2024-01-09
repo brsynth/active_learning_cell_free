@@ -8,9 +8,10 @@ The aim of this folder is to regroup all necessary scripts for generating data a
 # Active learning loop:
 
 This folder contains data both for 
-- generating the active learning loop (learn_and_suggest script, Figures 1c and 1d)
-- generating model statistics at each iteration (generate_model_statistics, Figure 1e)
-- genarting first plate for active learning (initial_plate_generation, Figure 1c)
+1. generating the active learning loop (learn_and_suggest script, Figures 1c and 1d)
+2. generating model statistics at each iteration (generate_model_statistics, Figure 1e)
+3. genarting first plate for active learning (initial_plate_generation, Figure 1c)
+- 
 
 # Compound effect analysis:
 

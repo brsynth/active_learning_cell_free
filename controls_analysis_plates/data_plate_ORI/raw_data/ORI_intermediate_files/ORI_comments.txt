@@ -1,1 +1,0 @@
-There are 0 outliers out of 13 (0.0%) for CV of 30
